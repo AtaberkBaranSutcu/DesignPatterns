@@ -6,5 +6,6 @@ public class SingletonApp {
         for (int i = 0; i < 10; i++) {
             Singleton singleton = Singleton.getSingleton();
         }
+        System.out.println("TEST");
     }
 }
